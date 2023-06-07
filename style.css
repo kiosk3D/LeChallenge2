@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Create a container to hold the title and navbar */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the title */
+  .title {
+    margin: 0;
+  }
+  
+  /* Style the navbar */
+  .navbar {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
