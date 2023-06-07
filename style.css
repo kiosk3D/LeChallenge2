@@ -19,12 +19,12 @@ body {
   
   /* Style the navbar */
   .navbar {
-    margin: 0;
+    margin: 10;
     list-style-type: none;
     padding: 0;
   }
   
   .navbar li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 120px;
   }
