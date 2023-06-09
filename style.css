@@ -9,7 +9,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: rgb(96, 132, 182);
+    color: white;
   }
   
   /* Style the title */
@@ -22,9 +23,22 @@ body {
     margin: 10;
     list-style-type: none;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
   }
   
   .navbar li {
     display: inline-block;
     margin-right: 120px;
   }
+
+ .app {
+  margin: 150px;
+  display: flex;
+  margin-left: 1000px;
+  font-size: 50px;
+ }
+
+ ._blank {
+  color: black;
+ }
