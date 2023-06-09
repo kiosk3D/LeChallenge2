@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
   }
   
   /* Create a container to hold the title and navbar */
@@ -9,7 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: rgb(96, 132, 182);
+    background-color: rgb(131, 159, 198);
     color: white;
   }
   
@@ -26,6 +27,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
   }
+   .sleep {
+    margin-left: 50px;
+    margin-top: 50px;
+   }
   
   .navbar li {
     display: inline-block;
@@ -34,9 +39,8 @@ body {
 
  .app {
   margin: 150px;
-  display: flex;
+  display: grid;
   margin-left: 1000px;
-  font-size: 50px;
  }
 
  ._blank {
